@@ -6,13 +6,13 @@
 /*   By: amounadi <mounadi1337@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/17 17:27:41 by amounadi          #+#    #+#             */
-/*   Updated: 2022/03/04 19:27:14 by amounadi         ###   ########.fr       */
+/*   Updated: 2022/03/04 19:53:05 by amounadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-void	ft_free(char  **str)
+void	ft_free(char **str)
 {
 	free(*str);
 	*str = NULL;
